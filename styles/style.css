@@ -12,11 +12,17 @@
 }
 
 /* Shared  Styel */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
 .text-primary{
     color: #FD6E0A;
 }
 .dark-2{
     color: #474747;
+}
+.text-center{
+    text-align: center;
 }
 
 /* Nav styels */
@@ -64,6 +70,7 @@ nav li a{
 .banner{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 0 28px 0 120px;
 
 }
@@ -72,6 +79,7 @@ nav li a{
     height: 320px;
 }
 .banner-greetings{
+    margin-bottom: 7px;
     font-size: 40px;
     font-weight: 600;
     color: #474747;
@@ -80,11 +88,68 @@ nav li a{
     color: #181818;
     font-size: 82px;
     font-weight: bold;
+    margin: 0 0 7px 0;
 }
 .banner-description{
     font-size: 18px;
 }
 .banner-profile-pic{
     width: 500px;
+}
 
+.section-title{
+    font-size: 28px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 16px;
+    color: #757575;
+}
+
+ /* main styles */
+ main{
+    max-width: 1140px;
+    margin: 0 auto;
+ }
+ /* about style */
+ .all-about{
+    margin: 90px 110px;
+    border: 1px solid rgb(17, 17, 17);
+ }
+ .about{
+    border-radius: 10px;
+    padding: 60px 90px;
+    margin-top: 80px;
+    text-align: center;
+ }
+ .about-items{
+    line-height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 20px; */
+}
+.item-title{
+    color:#757575;
+    font-size:16px;
+}
+.item-description{
+    color:#474747;
+    font-size:16px;
+    font-weight: bold;
+}
+
+/* Start Style Skill secton  */
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 50px;
+}
+.skill{
+    /* border: 2px solid blue; */
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    padding: 15px;
 }
