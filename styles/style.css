@@ -184,7 +184,10 @@ nav li a{
     font-size: 22px;
 }
 .edu-uni, .exp-uni{
-    font-size: 28px;
+    font-size: 18px;
+}
+.edu-about, .exp-about{
+    font-size: 14px;
 }
 .main-title{
     font-size: 25px;
