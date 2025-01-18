@@ -223,7 +223,7 @@ nav li a{
 }
 
 @media screen and (max-width: 576px) {
-    .skills-container, .resume, .footer-sec{
+    .skills-container, .resume, .footer-sec, .banner{
         flex-direction: column;
     }
     .skills-container{
@@ -301,4 +301,16 @@ nav li a{
     .item-description{
         font-size: 12px;
     }
+
+    /* Responsive Banner Section */
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-content{
+        /* max-width: 510px; */
+        max-width: 100%;
+        /* height: 320px; */
+        height: auto;
+    }
+   
 }
