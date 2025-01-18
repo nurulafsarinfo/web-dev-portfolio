@@ -21,9 +21,13 @@
 .dark-2{
     color: #474747;
 }
+.dark-3{
+    color: #757575;
+}
 .text-center{
     text-align: center;
 }
+
 
 /* Nav styels */
 nav{
@@ -145,11 +149,67 @@ nav li a{
     display: flex;
     justify-content: space-between;
     gap: 15px;
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 .skill{
     /* border: 2px solid blue; */
     border-radius: 10px;
     background-color: #FFF8F3;
     padding: 15px;
+    box-shadow: 0px 6px 10px 10px rgba(44, 43, 43, 0.123);
+}
+
+/* Styling Resume section */
+.resume{
+    display: flex;
+    gap:24px;
+    margin-bottom: 40px;
+}
+.resume-heading{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.section-title, .resume-heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+.dwn-cv{
+    text-align: center;
+    margin: 30px;
+    margin-top: 10px;
+}
+.edu-title, .exp-title{
+    font-size: 22px;
+}
+.edu-uni, .exp-uni{
+    font-size: 28px;
+}
+.main-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.footer-sec{
+    padding: 100px 180px;
+    display: flex;
+    flex: 1;
+    gap: 100px;
+}
+.about-btn{
+    margin-top: 30px;
+}
+.about-footer{
+    width: 50%;
+}
+.about-footer> input[type="text"], input[type="email"], textarea {
+    height: 50px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    
 }
