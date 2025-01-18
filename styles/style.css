@@ -145,6 +145,7 @@ nav li a{
 }
 
 /* Start Style Skill secton  */
+
 .skills-container{
     display: flex;
     justify-content: space-between;
@@ -214,5 +215,90 @@ nav li a{
     padding: 10px 20px;
     margin-bottom: 20px;
     border: none;
+}
+/* Responsive with Media query */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+    .skills-container, .resume, .footer-sec{
+        flex-direction: column;
+    }
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 15px;
+    }
+
+    /* Responsive resume */
+    .resume{
+        width: 97%;
+        padding: 0px 15px;
+    }
+    .edu-sec{
+        background-color: #fae06a;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .edu-uni, .edu-about{
+        color: #494545;
+    }
+    .exp-sec{
+        background-color: #bbe753;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .exp-uni, .exp-about{
+        color: #3b3535;
+    }
+
+    /* Responsive footer section */
+    .footer-sec{
+        margin: 10px;
+        padding: 10px 18px;
+        display: flex;
+        flex-direction: column;
+        flex: ;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .about-footer{
+        width: 100%;
+    }
+    .contact-icon{
+        margin-bottom: 20px;
+    }
     
+    .about-footer> input[type="text"], input[type="email"], textarea {
+        height: 40px;
+        border-radius: 5px;
+        width: calc(100% - 20px);
+        padding: 0px 18px;
+        margin-bottom: 20px;
+    }
+
+    /* Responsive About section */
+
+    .all-about{
+        margin: 10px;
+        padding: 6px;
+        border: 1px solid rgb(231, 133, 41);
+     }
+     .about{
+        border-radius: 5px;
+        padding: 10px 20px;
+        margin-top: 40px;
+        text-align: center;
+     }
+     .item-title{
+        color:#757575;
+        font-size: 14px;
+    }
+    .item-description{
+        font-size: 12px;
+    }
 }
